@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".RateActivity">
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="CẢM ƠN ĐÃ DÙNG DỊCH VỤ CỦA CHÚNG TÔI"
+        android:textSize="24sp" />
+
+    <me.zhanghai.android.materialratingbar.MaterialRatingBar
+        android:layout_marginTop="16dp"
+        android:id="@+id/ratingBar"
+        style="@style/Widget.MaterialRatingBar.RatingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rating="0" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_marginTop="16dp"
+        android:id="@+id/edtComment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhận xét của bạn"
+        android:inputType="textMultiLine"
+        android:maxLines="10"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary"
+        android:textSize="18sp"
+        app:met_baseColor="@color/colorPrimary"
+        app:met_floatingLabel="highlight"
+        app:met_primaryColor="@color/colorPrimary"
+        app:met_singleLineEllipsis="false" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/black"
+        android:text="ĐÁNH GIÁ"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+</LinearLayout>

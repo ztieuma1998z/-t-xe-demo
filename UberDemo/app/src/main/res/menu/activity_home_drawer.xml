@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navUpdateInformation"
+            android:icon="@drawable/ic_event_note_black_24dp"
+            android:title="THAY ĐỔI THÔNG TIN CÁ NHÂN" />
+
+        <item
+            android:id="@+id/navUpdateCarType"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="THAY ĐỔI LOẠI XE" />
+
+        <item
+            android:id="@+id/navSignOut"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="ĐĂNG XUẤT" />
+
+    </group>
+
+</menu>
